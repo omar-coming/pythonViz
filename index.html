@@ -1,21 +1,69 @@
-<style>
+<head>
+    <title>Python Data Visualization</title>
+    <style>.hidden{display:none;}
+    body{
+        height:100%;
+        width:100%;
+        background:#999;
+    }
 
-</style>
+    .wrap{
+        max-width:1000px;
+        margin:0 auto;
+    }
+
+    h2, h3{
+        color:white;
+        font-size:20px;
+        font-family:roboto;
+        text-align:center;
+    }
+
+    p{
+        padding:20px;
+        margin:10px;
+        text-align:center;
+
+    }
+
+    img{
+        margin:0 auto;
+    }
+    </style>
+</head>
 
 <body>
+    <div class="wrap">
     <header>
 
-        <h1>Olympic Winter Medals</h1>
-        <h2>by: Spencer Dips</h2>
+        <h1 class="hidden">Olympic Winter Medals</h1>
 
     </header>
 
     <main>
-        <h2>USA MEDALS</h2>
-        <h3>by Gender</h3>
+        <h2 class="hidden">Data Point 1</h2>
+        <h3 class="hidden">USA GOLD MEDALS BY YEAR</h3>
+        <img src="./images/usagoldyears.png">
+        <p>This chart shows some suspicious activity with the USA olympic team.
+            They are clearly trash for decades, and then all of a sudden they bring 19 golds home in 1960.
+        </p>
+        <h3>What happened bewteen 1955 and 1960? you may ask.</h3>
+        <img src="./images/proof.jpg" height="400px" width="auto">
+
+        <p>It all makes sense now.</p>
+
+        <img src="./images/maps_final.svg">
+        <h2>Total Medal Count by Country in Descending Rank</h2>
+        <h3>Pie charts show the % of bronze to silver to gold per country</h3>
+        <p>This figure backs up the fact that America is just a bunch of cheaters. 
+            There's no way they're better than Canada.</p>
+
+            <p>I used matplotlib to do these pie charts, I saved them as SVGs and incorporated them into my final graphic.
+            </p>
     </main>
 
     <footer>
 
     </footer>
+</div>
 </body>
