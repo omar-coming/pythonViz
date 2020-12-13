@@ -15,12 +15,12 @@ opacity = 0.8
 rects1 = plt.bar(index, gold_usa, bar_width,
 alpha=opacity,
 color='r',
-label='Silver')
+label='Gold')
 
 rects2 = plt.bar(index + bar_width, silver_usa, bar_width,
 alpha=opacity,
 color='b',
-label='Gold')
+label='Silver')
 
 plt.xlabel('Year')
 plt.ylabel('Medal Count')
